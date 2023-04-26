@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebFx clone</title>
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- OWL CAROUSEL CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- HEADER SECTION START -->
+
+    <header class="sticky bg-white">
+        <!-- TOP HEADER START -->
+        <section class="top-head">
+            <div class="container-fluid d-lg-flex align-items-center justify-content-between  border-bottom px-3">
+                <div class="top-head-left d-flex align-items-center gap-3 ">
+                    <div class="content-lth d-lg-block d-none">
+                        <i class="ic-header-chart-trending-up"></i>
+                        <div class="lth-text">
+                            <small>REVENUE DRIVEN FOR OUR CLIENTS</small>
+                            <h5 class="fw-bold">$3,021,182,299</h5>
+                        </div>
+                    </div>
+                    <div class="lth-client-login d-lg-block d-none ">
+                        <button class="border px-4 py-2 rounded fw-bold"><i class="ic-header-user"></i> <small>CLIENT
+                                LOGIN</small></button>
+                    </div>
+                </div>
+                <div class="top-head-right d-flex align-items-center gap-3">
+
+                    <div class="rth-search d-lg-block d-none">
+                        <button class="border px-4 py-2 rounded fw-bold"><i class="ic-header-search"></i>
+                            <small>SEARCH</small></button>
+                    </div>
+                    <div class="content-rth w-100">
+                        <i class="ic-header-chart-trending-up"></i>
+                        <div class="rth-text  d-flex align-items-center justify-content-between">
+                            <h5 class="fw-bold m-0">888-601-5359</h5>
+                            <div class="mh-get-proposal d-md-block d-lg-none">
+                                <button class="border my-2 px-3 py-1 rounded fw-bold"><i class="ic-header-search"></i>
+                                    <small>Get a proposal</small></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TOP HEADER END -->
+
+        <!-- MAIN HEADER START -->
+        <section class="main-head px-2 ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-0 ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img
+                            src="	https://www.webfx.com/wp-content/uploads/2021/10/webfx-logo.png" alt=""
+                            width="130"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item d-md-none ">
+                                <div class="lth-client-login my-2">
+                                    <button class="border px-4 py-2 rounded fw-bold w-100"><i
+                                            class="ic-header-user"></i> <small>CLIENT
+                                            LOGIN</small></button>
+                                </div>
+                            </li>
+                            <li class="nav-item d-md-none">
+                                <div class="rth-search">
+                                    <button class="border px-4 py-2 rounded fw-bold w-100"><i
+                                            class="ic-header-search"></i>
+                                        <small>SEARCH</small></button>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">SEO & Lead Generation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ecommerce</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">UX & Interactive</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Technology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Who We Are</a>
+                            </li>
+                        </ul>
+                        <div class="d-none d-lg-block">
+
+                            <div class="mh-get-proposal">
+                                <button class="border px-4 py-2 rounded fw-bold"><i class="ic-header-search"></i>
+                                    <small>Get a proposal</small></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- MAIN HEADER END -->
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <!-- HERO CONTENT START -->
+    <section class="hero-content overflow-hidden p-lg-5">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-md-6">
+                    <div class="hero-left-content text-lg-start text-center">
+                        <h6 class="my-4">DIGITAL MARKETING THAT DRIVES REVENUE®</h6>
+                        <h1 class="fw-bolder mb-4">Data-driven revenue marketing</h1>
+                        <p class="mb-5 lead">Choose WebFX as your digital marketing agency and propel your business to
+                            new heights with
+                            our award-winning digital marketing services and proprietary technology platform.</p>
+                        <div class="proposal">
+                            <form action="#" class="d-flex
+                            align-items-center gap-2 flex-lg-nowrap flex-wrap">
+                                <input type="email" class="form-control py-3">
+                                <button class="form-control text-white fw-bold ">Send me a proposal
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="hero-right-content">
+                        <img src="https://www.webfx.com/wp-content/uploads/2023/03/homepage-featured-image.webp" alt=""
+                            class="hero-img img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HERO CONTENT END -->
+
+    <!-- PARTNERS SLIDER PART START-->
+    <section class="partner-slider">
+        <div class="container-fluid">
+            <div class="owl-carousel owl-theme">
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2022/09/google_cloud_partner_no_outline_horizontal-bw.png"
+                        alt="">
+                </div>
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2022/05/amazon-ads-verified-partner-badge2-e1651604297119.png"
+                        alt="">
+                </div>
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2022/05/meta-business-partners.png" alt="">
+                </div>
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2023/02/googlepremierbadge2023-bw-124x120.png"
+                        alt="">
+                </div>
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2021/10/inc5000-9x.png" alt="">
+                </div>
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2021/10/microsoft-advertising-partner.png"
+                        alt="">
+                </div>
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2021/10/google-cloud-partner.png" alt="">
+                </div>
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2021/11/shopify-partner.png" alt="">
+                </div>
+                <div class="item d-flex align-items-center justify-content-center">
+                    <img src="https://www.webfx.com/wp-content/uploads/2021/11/bptw-eight-years-133x52.png" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- PARTNERS SLIDER PART END-->
+
+    <!-- ABOUT COMPANY SECTION START -->
+    <section class="about">
+        <div class="container-fluid">
+            <div class="about-head">
+                <h1 class="h1-bold text-center">Your search ends here.</h1>
+                <h3 class="fw-bold text-center">Learn why businesses trust WebFX to power growth.</h3>
+            </div>
+            <div class="about-category">
+                <div class="row p-5">
+                    <div class="col-lg-3 col-6 text-center">
+                        <button class="text-decoration-none about-option active-about">
+                            500+ digital experts
+                        </button>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center">
+                        <button class="text-decoration-none about-option">
+                            25-year track record
+                        </button>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center">
+                        <button class="text-decoration-none about-option">
+                            1,000s of reviews
+                        </button>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center">
+                        <button class="text-decoration-none about-option">
+                            In-house technology
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="digital-expert">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="digi-content ">
+                                    <p>Our team has deep expertise across all areas of digital. Need a deep dive on how
+                                        to set up event tracking for a complex lead process? Want to optimize your sales
+                                        pipeline using automations? We’ve got you covered. With a dedicated account
+                                        manager, our clients have one go-to contact who interfaces with 500+
+                                        subject-matter experts to drive campaign results.</p>
+                                    <a href="" class="float-end fw-bold text-decoration-none">About Us</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="digi-image mt-lg-0 mt-3">
+                                    <img src="https://www.webfx.com/wp-content/uploads/2023/03/1-img-3-1.webp" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track-record">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="track-content">
+                                    <p>Our focus since inception has been simple: Drive meaningful results for our
+                                        customers. That’s why we obsess over measurement and the north star of revenue
+                                        generation. We take pride in playing a key role in your business’s growth.</p>
+                                    <a href="" class="pb-3 float-end fw-bold text-decoration-none">Our Results</a>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="track-image mt-lg-0 mt-3">
+                                    <img src="https://www.webfx.com/wp-content/uploads/2022/10/2-Professional-21-e1664978847791-new.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <p>We’ve worked hard to create raving fans of WebFX. You can read hundreds of detailed,
+                            third-party reviews on Clutch, view case studies from happy customers, and browse the 1000+
+                            testimonials on our site. Our radical customer focus is part of our core values.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="reviews-content">
+                                    <p>“The nice thing about working with WebFX has always been that they’ve pushed us
+                                        to up the quality of everything that we’re doing.”</p>
+                                    <div class="rv-box">
+                                        <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-4-photo-7-1.png"
+                                            alt="">
+                                        <div>
+                                            <p>CAROL DE RAMON</p>
+                                            <small>de Ramon Plastic Surgery Institute</small>
+                                        </div>
+
+                                    </div>
+                                    <a href="">See more reviews</a>
+                                </div>
+                                <div class="reviews-content">
+                                    <p>“Now, working with WebFX, everything is very organized. It’s strategic. As of
+                                        last month, we’re up 40% as compared to this time last year.”</p>
+                                    <div class="rv-box">
+                                        <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-3-photo-5-1.png"
+                                            alt="">
+                                        <div>
+                                            <p>SHANE VRANKIN</p>
+                                            <small>C.H. Reed</small>
+                                        </div>
+
+                                    </div>
+                                    <a href="">See more reviews</a>
+                                </div>
+                                <div class="reviews-content">
+                                    <p>“Working with WebFX has always been a great experience. We’ve had a great
+                                        experience with all of our reps – everyone has worked really hard to make sure
+                                        that we’re achieving our goals.”</p>
+                                    <div class="rv-box">
+                                        <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-3-photo-5-1.png"
+                                            alt="">
+                                        <div>
+                                            <p>ALLY ANDREWS</p>
+                                            <small>HydroWorx</small>
+                                        </div>
+
+                                    </div>
+                                    <a href="">See more reviews</a>
+                                </div>
+                                <div class="reviews-content">
+                                    <p>“WebFX has helped us expand our digital footprint, not only in central PA and the
+                                        mid-Atlantic, but also throughout the continental U.S.”</p>
+                                    <div class="rv-box">
+                                        <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-3-photo-5-1.png"
+                                            alt="">
+                                        <div>
+                                            <p>DAVE MILLER</p>
+                                            <small>ALL PRO TRAILER SUPERSTOR</small>
+                                        </div>
+
+                                    </div>
+                                    <a href="">See more reviews</a>
+                                </div>
+                                <div class="reviews-content">
+                                    <p>“We are getting more traffic and spending less money [with WebFX] Our SEO results
+                                        have gone way up. We have a lot more time to manage our business.”</p>
+                                    <div class="rv-box">
+                                        <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-3-photo-5-1.png"
+                                            alt="">
+                                        <div>
+                                            <p>ANDREA YOUNG</p>
+                                            <small>Wheeler Machinery</small>
+                                        </div>
+
+                                    </div>
+                                    <a href="">See more reviews</a>
+                                </div>
+
+
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="reviews-image">
+                                    <img src="https://www.webfx.com/wp-content/uploads/2023/03/1-img-3-1.webp" alt="">
+                                    <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-3-photo-5-1.png"
+                                        alt="">
+                                    <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-5-photo-8.png" alt="">
+                                    <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-2-photo-3-3.png"
+                                        alt="">
+                                    <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-1-photo-1-2.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="housetech-expert">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="housetech-image">
+                                    <img src="https://www.webfx.com/wp-content/uploads/2022/10/4-world-class-tech-imh-768x539.png"
+                                        alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="housetech-content">
+                                    <p>Technology is part of the WebFX DNA, and getting the best ROI from your marketing
+                                        campaigns requires technical expertise. We built MarketingCloudFX to provide
+                                        industry-leading revenue marketing software for our clients and team. We partner
+                                        with Google Cloud and IBM Watson to maximize data insights for your campaigns.
+                                        We even built Nutshell, our own CRM.</p>
+                                    <a href="" class="float-end fw-bold text-decoration-none">MarketingCloudFX</a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT COMPANY SECTION END -->
+
+    <!-- PROPOSAL FORM START -->
+    <section class="proposal-form my-5">
+        <div class="container bg-dark rounded">
+            <h1 class="fs-2 text-light text-center fw-bolder p-5">Ready to get started? Take your business to the next
+                level with WebFX.</h1>
+            <form action="" class="d-flex align-items-center justify-content-center">
+                <div class="d-flex mb-5 w-100 px-5 flex-md-row flex-column">
+                    <input type="text" class="py-3 px-3 border-0 w-75 ">
+                    <button type="submit"
+                        class="bg-primary text-light fs-lg-4 fw-bold px-2 border-0 w-25 my-lg-0 py-lg-0 my-2 py-3">Get
+                        a Proposal</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- PROPOSAL FORM END -->
+
+    <!-- CHALLENGE ACEEPTTED START -->
+    <section class="challenge">
+        <h1 class="h1-bold text-center mt-5">Challenge accepted.</h1>
+        <p class="ch-para fs-3 text-center">WebFX solves your digital bottlenecks.</p>
+        <div class="container-fluid">
+            <div class="row px-3">
+                <div class="col-md-6 p-2">
+                    <div class="d-flex align-items-center border rounded p-5 h-100">
+                        <div class="challenge-types">
+                            <h2>My website isn’t getting enough traffic</h2>
+                            <p class="pe-5">Without consistent site traffic, you’re missing out on valuable visitors,
+                                leads, and
+                                revenue.
+                                Thankfully, custom SEO solutions can get you back on track by boosting your presence in
+                                search engine results, so more people can find and visit your site.</p>
+                            <ul>
+                                <li>Boost your presence in search results</li>
+                                <li>Capture targeted site traffic </li>
+                                <li>Turn site visitors into leads and customers </li>
+                            </ul>
+                            <hr>
+                            <a href="" class="mp  text-white fw-bold p-1 text-decoration-none">Explore SEO Services </a>
+                        </div>
+                        <div class="challenge-types-icon">
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-2">
+                    <div class="d-flex align-items-center border rounded p-5 h-100">
+                        <div class="challenge-types">
+                            <h2>My CPL from digital ad campaigns is too high</h2>
+                            <p class="pe-5">Tired of wasting dollars on ad campaigns? Our paid ad experts can help
+                                streamline your
+                                bidding strategy and refine ad targeting, so you get the maximum impact from your ads.
+                            </p>
+                            <ul>
+                                <li>Refine ad targeting</li>
+                                <li>Engage your audience where they browse online </li>
+                                <li>Maximize paid ad budget </li>
+                            </ul>
+                            <hr>
+                            <a href="" class="mp  text-white fw-bold p-1 text-decoration-none">Explore PPC Services </a>
+                        </div>
+                        <div class="challenge-types-icon">
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-2">
+                    <div class="d-flex align-items-center border rounded p-5 h-100">
+                        <div class="challenge-types">
+                            <h2>My website isn’t generating enough leads</h2>
+                            <p class="pe-5">Struggling to get qualified leads in your pipeline? Turn up the dial on your
+                                lead
+                                generation with digital marketing plans, tailored to your goals and budget.
+                            </p>
+                            <ul>
+                                <li>Fill up your lead pipeline</li>
+                                <li>Reach your most valuable audience</li>
+                                <li>Maximize conversion opportunities </li>
+                            </ul>
+                            <hr>
+                            <a href="" class="mp  text-white fw-bold p-1 text-decoration-none">Explore Lead Gen Services
+                            </a>
+                        </div>
+                        <div class="challenge-types-icon">
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-2">
+                    <div class="d-flex align-items-center border rounded p-5 h-100">
+                        <div class="challenge-types">
+                            <h2>My marketing and sales data is disconnected</h2>
+                            <p class="pe-5">Don’t let leads slip through the cracks. Unify your sales and marketing
+                                efforts with
+                                Nutshell and MarketingCloudFX, to provide end-to-end reporting and analysis of your
+                                data.
+                            </p>
+                            <ul>
+                                <li>Unify sales and marketing data</li>
+                                <li>Prioritize leads with data-backed insights</li>
+                                <li>Turn opportunities into closed deals</li>
+                            </ul>
+                            <hr>
+                            <a href="" class="mp  text-white fw-bold p-1 text-decoration-none">Explore
+                                MarketingCloudFX</a>
+                        </div>
+                        <div class="challenge-types-icon">
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-2">
+                    <div class="d-flex align-items-center border rounded p-5 h-100">
+                        <div class="challenge-types">
+                            <h2>We’re unable to hit our SQL and revenue goals</h2>
+                            <p class="pe-5">Not happy with lead and revenue numbers? Attract and close more SQLs and
+                                watch sales soar
+                                with personalized revenue marketing.
+                            </p>
+                            <ul>
+                                <li>Power up qualified leads </li>
+                                <li>Keep your sales team busy</li>
+                                <li>Drive more revenue from online marketing</li>
+                            </ul>
+                            <hr>
+                            <a href="" class="mp  text-white fw-bold p-1 text-decoration-none">Explore Revenue Marketing
+                                Solutions</a>
+                        </div>
+                        <div class="challenge-types-icon">
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-2">
+                    <div class="d-flex align-items-center border rounded p-5 h-100">
+                        <div class="challenge-types">
+                            <h2>Managing digital campaigns takes too much time</h2>
+                            <p class="pe-5">We get it — managing and optimizing digital campaigns takes a lot of work.
+                                Our
+                                comprehensive, do-it-for-me services save you time and money, so you can focus on what
+                                you do best — running your business.</p>
+                            <ul>
+                                <li>Save time and money</li>
+                                <li>Automate campaigns for smarter marketing</li>
+                                <li>Harness the power of 500+ industry-certified professionals </li>
+                            </ul>
+                            <hr>
+                            <a href="" class="mp  text-white fw-bold p-1 text-decoration-none">Hear From Happy
+                                Clients</a>
+                        </div>
+                        <div class="challenge-types-icon">
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CHALLENGE ACEEPTTED END -->
+
+    <!-- BY THE NUMBERS- CASE STUDY SECTION START -->
+    <section class="case-studies bg-case-box">
+        <div class="container-fluid bg-case">
+            <h1 class="h1-bold text-center text-white py-5">By the numbers</h1>
+            <p class="fs-3 text-white px-5 text-center">Our best-in-class digital marketing agency impresses customers
+                with impactful results and
+                wows them with
+                stellar customer service.</p>
+            <div class="dm-proposal text-center">
+                <form action="" class="d-flex align-items-center justify-content-center">
+                    <div class="d-flex mb-5 w-100 px-5 flex-md-row flex-column">
+                        <input type="text" class="py-3 px-3 border-0 w-75">
+                        <button type="submit"
+                            class="bg-primary text-light fs-lg-4 fw-bold px-2 border-0 w-25  my-lg-0 py-lg-0 my-2 py-3">Get
+                            a Proposal</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row pb-5">
+                <div class="col-lg-3 col-md-6">
+                    <div
+                        class="case-study h-100 p-5 bg-white d-flex flex-column gap-3 justify-content-center text-center py-3">
+                        <h1 class="h1-bold">Centrak</h1>
+                        <p class="fs-4 fw-bolder">Decrease in PPC cost per lead</p>
+                        <p class="percent fs-1 fw-bold text-success">90%</p>
+                        <a href="" class="text-decoration-none fs-5 fw-bold">Read Full Case Study</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div
+                        class="case-study h-100 p-5 bg-white d-flex flex-column gap-3 justify-content-center text-center py-3">
+                        <h1 class="h1-bold">HydroWorx</h1>
+                        <p class="fs-4 fw-bolder">Increase in organic sessions</p>
+                        <p class="percent fs-1 fw-bold text-success">236%</p>
+                        <a href="" class="text-decoration-none fs-5 fw-bold">Read Full Case Study</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div
+                        class="case-study h-100 p-5 bg-white d-flex flex-column gap-3 justify-content-center text-center py-3">
+                        <h1 class="h1-bold">Net Friends</h1>
+                        <p class="fs-4 fw-bolder">Increase in website traffic and leads</p>
+                        <p class="percent fs-1 fw-bold text-success">2X</p>
+                        <a href="" class="text-decoration-none fs-5 fw-bold">Read Full Case Study</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div
+                        class="case-study h-100 bg-white p-5 d-flex flex-column gap-3 justify-content-center text-center py-3">
+                        <h1 class="h1-bold">KOA</h1>
+                        <p class="fs-4 fw-bolder">Increase in organic transactions</p>
+                        <p class="percent fs-1 fw-bold text-success">198%</p>
+                        <a href="" class="text-decoration-none fs-5 fw-bold">Read Full Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BY THE NUMBERS- CASE STUDY SECTION END -->
+
+    <!-- MARKETTING CLOUD FX SECTION START -->
+    <section class="marketing mt-5">
+        <div class="text-center">
+            <img class="img-fluid" src="https://www.webfx.com/wp-content/uploads/2022/10/1-marketingcloudfx-dark.png"
+                alt="">
+        </div>
+        <div class="container-fluid position-relative">
+            <h1 class="h1-bold text-center my-5">World-Class Technology <br> Powering Our Campaigns</h1>
+            <div class="laptop-img w-100 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="https://www.webfx.com/wp-content/uploads/2022/10/2-world-class-tech-imh.png"
+                    alt="">
+                <img src="https://www.webfx.com/wp-content/themes/fx/assets/img/blocks/homepage/big-image-enveloped-with-description-cta-link/bg-world-class-front.webp"
+                    alt="" class="img-fluid">
+                   
+            </div>
+        </div>
+        <div class="marketing-content">
+            <p class=" fs-5 px-5 text-justify fw-bolder text-center text-secondary">Our clients achieve tangible results
+                because of our winning combo — expert digital marketers and insights
+                from our technology platform, MarketingCloudFX. WebFX has engineered a custom-built software platform
+                designed to help clients make smarter marketing decisions using tools like IBM Watson and Google Cloud
+                Platform. Get real-time analysis on how your website is performing, what your pipeline looks like, what
+                your competitors are up to, and what opportunities exist in your industry.</p>
+
+            <a href="" class="mp mx-5 d-block text-center text-white fw-bold py-3 text-decoration-none">Meet
+                MarketingCloudFX <i class="fa-solid fa-arrow-right"></i></a>
+
+        </div>
+
+        <div class="revenue-list">
+            <h1 class="h1-bold text-center mt-5">How We Drive Revenue</h1>
+            <p class="lead fs-3 px-5 text-justify fw-bolder text-center text-dark my-3">Looking to power up your digital
+                strategy? WebFX offers a wide range of digital marketing services that
+                work together to attract, delight, and convert leads. Toss in our proprietary tech-powered suite of
+                tools, and your campaign is unbeatable.</p>
+
+            <div class="row px-3">
+                <div class="col-md-6 p-3">
+                    <div class="revenue-category h-100 border rounded">
+                        <div class=" px-5 py-2 d-flex align-items-center justify-content-between">
+                            <p class="fs-3">Drive Website Traffic</p>
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/1-1.png" alt="">
+                        </div>
+                        <hr>
+                        <div class=" d-flex justify-content-between p-5 flex-lg-row flex-column">
+                            <div class="web-traffic d-flex flex-column">
+                                <a href="">SEO Services</a>
+                                <a href="">Local SEO Services</a>
+                            </div>
+                            <div class="web-traffic  d-flex flex-column ">
+                                <a href="">Ecommerce SEO Services</a>
+                                <a href="">Content Marketing Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-3">
+                    <div class="revenue-category h-100 border rounded">
+                        <div class="px-5 py-2 d-flex align-items-center justify-content-between">
+                            <p class="fs-3">Create & manage powerful ad campaigns</p>
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/2-1.png" alt="">
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between p-5 flex-lg-row flex-column">
+                            <div class="campaigns d-flex flex-column">
+                                <a href="">PPC Management Services</a>
+                                <a href="">Programmatic Advertising Services</a>
+                            </div>
+                            <div class="campaigns d-flex flex-column">
+                                <a href="">Social Advertising Services</a>
+                                <a href="">Geofencing Advertising Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-3">
+                    <div class="revenue-category h-100 border rounded">
+                        <div class="px-5 py-2 d-flex align-items-center justify-content-between">
+                            <p class="fs-3">Collect, analyze and deploy marketing data</p>
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/3-1.png" alt="">
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between p-5 flex-lg-row flex-column">
+                            <div class="web-traffic d-flex flex-column">
+                                <a href="">MarketingCloudFX</a>
+                                <a href="">Website Call Tracking</a>
+                            </div>
+                            <div class="web-traffic d-flex flex-column">
+                                <a href="">Nutshell</a>
+                                <a href="">Lead Management</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-3">
+                    <div class="revenue-category h-100 border rounded">
+                        <div class="px-5 py-2 d-flex align-items-center justify-content-between">
+                            <p class="fs-3">Improve brand messaging and conversion</p>
+                            <img src="https://www.webfx.com/wp-content/uploads/2022/10/4-1.png" alt="">
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between p-5 flex-lg-row flex-column">
+                            <div class="web-traffic d-flex flex-column">
+                                <a href="">Website Design Services</a>
+                                <a href="">Landing Page Design Services</a>
+                            </div>
+                            <div class="web-traffic d-flex flex-column">
+                                <a href="">CRO Services</a>
+                                <a href="">Social Media Management Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- MARKETTING CLOUD FX SECTION END -->
+
+    <!-- BUSINESS EMPOWERMENT SECTION START -->
+    <h1>Empowering your business with actual results</h1>
+
+    <!-- BUSINESS EMPOWERMENT SECTION END -->
+
+    <!-- JQUERY CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- OWL CAROUSEL JS CDN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+    <!-- BOOTSTRAP JS BUNDLE CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
